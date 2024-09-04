@@ -1,0 +1,201 @@
+/* Container Styling */
+.container {
+    max-width: 1200px; /* Ensures the container doesn’t become too wide */
+}
+
+/* Card Styling */
+.card {
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+    overflow: hidden; /* Ensure rounded corners are respected */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for 3D effect */
+}
+
+.card-body {
+    padding: 20px; /* Padding inside the card */
+}
+
+.card-img-top {
+    width: 50px; /* Fixed width for icons */
+    height: 50px; /* Fixed height for icons */
+    margin-bottom: 15px; /* Space below the icon */
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: translateY(-10px) scale(1.02); /* Slight lift and zoom effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Slightly larger font for titles */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.card-text {
+    font-size: 0.9rem; /* Slightly smaller font for descriptions */
+    color: #6c757d; /* Light gray color for text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px; /* Ensure cards have space between them on small screens */
+    }
+}
+
+/* Card icon styling */
+
+/* Container Styling */
+.container {
+    padding: 2rem;
+}
+
+/* Heading Styling */
+.container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Card Styling */
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Card Body Styling */
+.card-body {
+    padding: 2rem;
+}
+
+/* Card Image Styling */
+.card-img-top {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+/* Card Title Styling */
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+/* Card Text Styling */
+.card-text {
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+}
+
+
+/* style */
+
+/* Footer Styling */
+footer {
+    background-color: #343a40; /* Dark background for the footer */
+    color: #ffffff; /* White text color */
+    padding: 2rem 0; /* Vertical padding for top and bottom */
+}
+
+/* Container Styling */
+footer .container {
+    max-width: 1140px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Section Title Styling */
+footer h5 {
+    font-size: 1.25rem; /* Font size for section titles */
+    font-weight: bold; /* Make section titles bold */
+    text-transform: uppercase; /* Uppercase text */
+    margin-bottom: 1rem; /* Margin below the section titles */
+}
+
+/* Contact Info Styling */
+footer .col-md-4 p {
+    font-size: 0.875rem; /* Smaller font size for contact info */
+    margin-bottom: 0.5rem; /* Margin below paragraphs */
+}
+
+/* Links Styling */
+footer a {
+    color: #ffffff; /* White color for links */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+footer a:hover {
+    color: #f1c40f; /* Gold color on hover */
+}
+
+/* Social Media Icons Styling */
+footer .d-flex a {
+    font-size: 1.5rem; /* Size of social media icons */
+    margin: 0 0.5rem; /* Margin around icons */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and scale */
+}
+
+footer .d-flex a:hover {
+    color: #f1c40f; /* Gold color on hover */
+    transform: scale(1.2); /* Slightly enlarge icons on hover */
+}
+
+/* Navigation Links Styling */
+footer ul {
+    padding-left: 0; /* Remove default padding */
+    list-style: none; /* Remove default list styling */
+}
+
+footer ul li {
+    margin-bottom: 0.5rem; /* Margin between list items */
+}
+
+footer ul li a {
+    font-size: 0.875rem; /* Font size for navigation links */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+footer ul li a:hover {
+    color: #f1c40f; /* Gold color on hover */
+}
+
+/* Footer Bottom Text */
+footer .text-center p {
+    margin-bottom: 0; /* Remove margin below the paragraph */
+    font-size: 0.875rem; /* Font size for bottom text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    footer .container {
+        padding: 0 1rem; /* Add horizontal padding for smaller screens */
+    }
+
+    footer .d-flex {
+        flex-direction: column; /* Stack social media icons vertically on small screens */
+        align-items: center; /* Center align the icons */
+    }
+
+    footer .d-flex a {
+        margin: 0.5rem 0; /* Adjust margin for vertical stacking */
+    }
+}

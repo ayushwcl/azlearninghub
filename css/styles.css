@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1; /* Light Gray Background */
+}
+/* Ensure the navbar text is white by default */
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff; /* White color for text */
+    transition: color 0.3s, background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+/* Change background color to #ffdd57 and add 3D effect when hovering over nav links */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #000000; /* Black color on hover */
+    background-color: #ffdd57; /* Yellow background on hover */
+    border-radius: 5px; /* Rounded corners for a smoother look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Style the dropdown items */
+.navbar-dark .dropdown-menu .dropdown-item {
+    color: #000000; /* Black color for dropdown items */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+/* Change background color to #ffdd57 and text color to black when hovering over dropdown items */
+.navbar-dark .dropdown-menu .dropdown-item:hover {
+    background-color: #ffdd57; /* Yellow background on hover */
+    color: #000000; /* Black color on hover */
+    border-radius: 5px; /* Rounded corners for dropdown items */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Ensure the dropdown toggle text is white by default */
+.navbar-dark .dropdown-toggle {
+    color: #ffffff; /* White color for text */
+}
+   
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1; /* Light Gray Background */
+}
+
+/* Navbar Styles */
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff; /* White color for text */
+    transition: color 0.3s, background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #000000; /* Black color on hover */
+    background-color: #ffdd57; /* Yellow background on hover */
+    border-radius: 5px; /* Rounded corners for a smoother look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.navbar-dark .dropdown-menu .dropdown-item {
+    color: #000000; /* Black color for dropdown items */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.navbar-dark .dropdown-menu .dropdown-item:hover {
+    background-color: #ffdd57; /* Yellow background on hover */
+    color: #000000; /* Black color on hover */
+    border-radius: 5px; /* Rounded corners for dropdown items */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.navbar-dark .dropdown-toggle {
+    color: #ffffff; /* White color for text */
+}
+
+/* Container Styling */
+.container {
+    padding: 2rem;
+}
+
+/* Heading Styling */
+.container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Card Styling */
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Card Body Styling */
+.card-body {
+    padding: 2rem;
+}
+
+/* Card Image Styling */
+.card-img-top {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+/* Card Title Styling */
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+/* Card Text Styling */
+.card-text {
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+/* Image Wrapper Zoom-in Effect */
+.image-wrapper {
+    overflow: hidden; /* Hide the overflow of zoomed image */
+    position: relative; /* Ensure proper positioning */
+}
+
+.image-wrapper img {
+    transition: transform 0.5s ease; /* Smooth zoom transition */
+}
+
+.image-wrapper.zoom-in img {
+    transform: scale(1.1); /* Zoom-in effect */
+}
+
+/* Add a class to the container to enable zoom-in effect */
+.image-wrapper:hover img {
+    transform: scale(1.1); /* Zoom-in effect on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+}
