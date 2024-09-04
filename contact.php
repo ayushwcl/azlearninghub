@@ -32,4 +32,19 @@
                 <label for="email">Email:</label>
                 <input type="email" class="form-control" id="email" name="email" required>
             </div>
-            <div class
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <?php include('footer.php'); ?>
+
+    <!-- Bootstrap and jQuery -->
+   
+</body>
+</html>
+
